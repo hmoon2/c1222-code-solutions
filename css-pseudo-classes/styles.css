@@ -1,0 +1,19 @@
+input {
+  height: 45px;
+  width: 160px;
+  font-size: 125%;
+}
+
+input:hover {
+  color: white;
+  background-color: black;
+}
+
+th {
+  color: white;
+  background-color: black;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
