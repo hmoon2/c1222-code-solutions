@@ -1,4 +1,8 @@
-head {
-  font-style: normal;
-  font-family: 'Cinzel', serif;
+h1, h2 {
+  font-family: 'Merriweather', serif;;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  line-height: 25px;
 }
