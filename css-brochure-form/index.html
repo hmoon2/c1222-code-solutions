@@ -10,27 +10,35 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h3>LEARN MORE</h3>
   <div>
-    <form>
-      <label>
-        COMPANY EMAIL
-        <input type="text" name="company-email" value="sally@company.co">
-      </label>
-      <label>
-        NAME
-        <input type="text" name="name" value="Sally Smith">
-      </label>
-      <label>
-        WHERE ARE YOU HIRING?
-        <input type="text" name="hiring-where" value="City, Country">
-      </label>
-      <label>
-        HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?
-        <input type="text" name="how-many-engineers" value="1-2 Engineers">
-      </label>
+    <div>
+      <h2 class="salmon">LEARN MORE</h2>
+    </div>
+    <div>
+      <form>
+        <fieldset>
+          <div class="spacing">
+            <label for="email" class="prompt-font">COMPANY EMAIL</label>
+            <input type="text" id="email" name="email" value="sally@company.co" class="answer-box">
+          </div>
+          <div class="spacing">
+            <label for="name" class="prompt-font">NAME</label>
+            <input type="text" id="name" name="name" value="Sally Smith" class="answer-box">
+          </div>
+          <div class="spacing">
+            <label for="hiring" class="prompt-font">WHERE ARE YOU HIRING?</label>
+            <input type="text" id="hiring" name="hiring-location" value="City, Country" class="answer-box">
+          </div>
+        </fieldset>
+        <div class="spacing">
+          <label for="engineer-number" class="prompt-font">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label>
+          <select id="engineer-number" name="engineers-in-six-months" class="answer-box">
+            <option value="one-to-two">1-2 Engineers</option>
+          </select>
+        </div>
+      </form>
       <button>SUBMIT</button>
-    </form>
+    </div>
   </div>
 </body>
 </html>
