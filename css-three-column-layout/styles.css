@@ -1,0 +1,11 @@
+.container {
+  background-color: rgb(35 149 224);
+  color: white;
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+  width: 800px;
+  margin: auto;
+}
