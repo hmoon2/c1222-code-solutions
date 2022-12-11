@@ -9,7 +9,7 @@ button {
 }
 
 div {
-  width: 600px;
+  width: 500px;
   margin: auto;
   letter-spacing: 1px;
 }
@@ -40,6 +40,11 @@ label {
 select {
   padding: 12px 1px;
   background-color: rgb(238 238 238);
+}
+
+#container {
+  display: flex;
+  justify-content: right;
 }
 
 .answer-box {
