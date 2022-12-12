@@ -1,0 +1,75 @@
+button {
+  color: white;
+  background-color: rgb(255 85 85);
+  border-radius: 22px;
+  border: none;
+  font-size: medium;
+  font-family: "Brandon Grotesque", sans-serif;
+  padding: 10px 25px;
+}
+
+div {
+  width: 500px;
+  margin: auto;
+  letter-spacing: 1px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  color: rgb(255 85 85);
+  text-align: center;
+  font-family: "Brandon Grotesque", sans-serif;
+}
+
+input {
+  padding: 14px 12px 10px;
+  color: lightslategray;
+  margin-top: 2px;
+}
+
+label {
+  padding: 0 12px;
+  width: 100%;
+}
+
+select {
+  padding: 12px 1px;
+  background-color: rgb(238 238 238);
+}
+
+#container {
+  display: flex;
+  justify-content: right;
+}
+
+.answer-box {
+  width: 100%;
+  font-size: medium;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: rgb(197 197 197);
+  border-style: solid;
+}
+
+.prompt-font {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: bold;
+  font-size: small;
+}
+
+.spacing {
+  margin-bottom: 15px;
+}
+
+.text-align {
+  text-align: left;
+}
+
+.right {
+  justify-content: right;
+}
