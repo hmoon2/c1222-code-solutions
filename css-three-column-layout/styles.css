@@ -1,20 +1,43 @@
 img {
+  width: 50px;
+  align-items: center;
+}
+
+p {
+  color: lightgray;
+}
+
+.border {
+  background: white;
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
-  background-color: white;
+  margin: auto;
+}
+
+.col-full {
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .col-third {
   width: calc(100% / 3);
+  padding: 0 25px;
 }
 
 .container {
   background-color: rgb(35 149 224);
   color: white;
-  font-family: sans-serif;
+  font-family: Lato, sans-serif;
+  text-align: center;
+  padding: 50px 0;
 }
 
 .row {
   display: flex;
-  width: 800px;
+}
+
+.width-1000 {
+  width: 1000px;
   margin: auto;
 }
