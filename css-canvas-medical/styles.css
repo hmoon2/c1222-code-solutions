@@ -1,0 +1,52 @@
+button {
+  border: none;
+}
+
+h1 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(15 49 100);
+}
+
+img {
+  width: 1000px;
+}
+
+.button-color {
+  color: white;
+  background-color: rgb(32 75 125);
+}
+
+.contact-us {
+  padding: 10px 15px;
+  border-radius: 2px;
+  font-family: Avenir, sans-serif;
+  font-size: small;
+}
+
+.get-started {
+  padding: 10px 40px;
+  border-radius: 4px;
+  font-family: Avenir, sans-serif;
+}
+
+.p-font {
+  font-family: Avenir, sans-serif;
+  color: rgb(157 156 156);
+  font-size: x-small;
+}
+
+/* .white-p-font {
+  font-family: Avenir, sans-serif;
+  color: white;
+  font-size: x-small;
+} */
+
+/* .white-serif {
+  color: white;
+} */
+
+.overlay {
+  background: linear-gradient(transparent, rgb(91 91 91/ 75%));
+}
