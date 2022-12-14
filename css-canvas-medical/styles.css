@@ -36,6 +36,10 @@ img {
   width: calc(100% / 3);
 }
 
+.col-fouth {
+  width: calc(100% / 4);
+}
+
 .header {
   width: calc(100% / 4);
   text-align: center;
@@ -60,9 +64,13 @@ img {
 }
 
 .get-started {
-  padding: 10px 40px;
-  border-radius: 4px;
+  padding: 10px 35px;
+  border-radius: 3px;
   font-family: Avenir, sans-serif;
+}
+
+.justify-content-right {
+  justify-content: right;
 }
 
 .light-gray-font {
