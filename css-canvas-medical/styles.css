@@ -9,20 +9,54 @@ h1 {
   color: rgb(15 49 100);
 }
 
+h3 {
+  color: rgb(101 101 101);
+}
+
+h5 {
+  font-family: Avenir, sans-serif;
+  font-weight: 600;
+  color: rgb(146 146 146);
+}
+
 img {
   width: 1000px;
 }
 
 .button-color {
   color: white;
-  background-color: rgb(32 75 125);
+  background-color: rgb(27 61 100);
+}
+
+.col-half {
+  width: calc(100% / 2);
+}
+
+.col-third {
+  width: calc(100% / 3);
+}
+
+.header {
+  width: calc(100% / 4);
+  text-align: center;
 }
 
 .contact-us {
-  padding: 10px 15px;
-  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
   font-family: Avenir, sans-serif;
   font-size: small;
+}
+
+.container-width {
+  width: 900px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
 }
 
 .get-started {
@@ -31,10 +65,17 @@ img {
   font-family: Avenir, sans-serif;
 }
 
-.p-font {
+.light-gray-font {
   font-family: Avenir, sans-serif;
   color: rgb(157 156 156);
   font-size: x-small;
+}
+
+.gray-font {
+  font-family: Avenir, sans-serif;
+  color: rgb(101 101 101);
+  font-size: x-small;
+  line-height: 20px;
 }
 
 /* .white-p-font {
@@ -47,6 +88,14 @@ img {
   color: white;
 } */
 
+.margin-auto {
+  margin: auto;
+}
+
 .overlay {
   background: linear-gradient(transparent, rgb(91 91 91/ 75%));
+}
+
+.text-center {
+  text-align: center;
 }
