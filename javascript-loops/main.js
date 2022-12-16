@@ -51,9 +51,9 @@ function logEachCharacter(string) {
   }
 }
 
-console.log(logEachCharacter(''));
-console.log(logEachCharacter('Heerak'));
-console.log(logEachCharacter('Tom ran to Jerry'));
+console.log('logEachCharacter:', logEachCharacter(''));
+console.log('logEachCharacter:', logEachCharacter('Heerak'));
+console.log('logEachCharacter:', logEachCharacter('Tom ran to Jerry'));
 
 function doubleAll(numbers) {
   var doubled = [];
@@ -63,8 +63,8 @@ function doubleAll(numbers) {
   return doubled;
 }
 
-console.log(doubleAll([2, 5, 6]));
-console.log(doubleAll([3, 8, 1]));
+console.log('doubleAll:', doubleAll([2, 5, 6]));
+console.log('doubleAll:', doubleAll([3, 8, 1]));
 
 function getKeys(object) {
   var keys = [];
@@ -76,12 +76,12 @@ function getKeys(object) {
 
 console.log('getKeys:', getKeys({ paws: 4, ears: 2 }));
 
-// function getValues(object) {
-//   var values = [];
-//   for (key in object) {
-//     values.push();
-//   }
-//   return values;
-// }
+function getValues(object) {
+  var values = [];
+  for (var key in object) {
+    values.push(object[key]);
+  }
+  return values;
+}
 
-// console.log(getValues({ chocolate: 'reeses', iceCream: 'mint' }));
+console.log('getValues:', getValues({ chocolate: 'reeses', iceCream: 'mint' }));
