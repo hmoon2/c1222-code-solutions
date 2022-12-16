@@ -36,5 +36,50 @@ console.log('getEvenNumbersToTwenty result:', getEvenNumbersToTwenty());
 //   var count = 1;
 //   var repeated = '';
 
-//   while ()
+//   while (count === times) {
+//     count++;
+//   }
+//   return repeated;
 // }
+
+// console.log('repeatWord:', repeatWord('cat', 5));
+
+function logEachCharacter(string) {
+  for (var i = 0; i < string.length; i++) {
+    console.log(string[i]);
+  }
+}
+
+console.log(logEachCharacter(''));
+console.log(logEachCharacter('Heerak'));
+console.log(logEachCharacter('Tom ran to Jerry'));
+
+function doubleAll(numbers) {
+  var doubled = [];
+  for (var i = 0; i < numbers.length; i++) {
+    doubled.push(numbers[i] * 2);
+  }
+}
+
+console.log(doubleAll([2, 5, 6]));
+console.log(doubleAll([3, 8, 1]));
+
+// function getKeys(object) {
+//   var keys = [];
+//   for (key in object) {
+//     keys.push[key];
+//   }
+//   return keys;
+// }
+
+// console.log(getKeys({ paws: 4, ears: 2 }));
+
+// function getValues(object) {
+//   var values = [];
+//   for (key in object) {
+//     values.push();
+//   }
+//   return values;
+// }
+
+// console.log(getValues({ chocolate: 'reeses', iceCream: 'mint' }));
