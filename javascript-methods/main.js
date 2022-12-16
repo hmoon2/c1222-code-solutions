@@ -34,3 +34,7 @@ var library = [
 var lastBook = library.pop();
 
 console.log(lastBook);
+
+var firstBook = library.shift();
+
+console.log(firstBook);
