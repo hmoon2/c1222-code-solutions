@@ -11,11 +11,11 @@ var randomNumber = Math.random();
 randomNumber *= heroes.length;
 var randomIndex = Math.floor(randomNumber);
 
-console.log(randomIndex);
+console.log('randomIndex:', randomIndex);
 
 var randomHero = heroes[randomIndex];
 
-console.log(randomHero);
+console.log('randomHero:', randomHero);
 
 var library = [
   {
@@ -33,8 +33,23 @@ var library = [
 ];
 var lastBook = library.pop();
 
-console.log(lastBook);
+console.log('lastBook:', lastBook);
 
 var firstBook = library.shift();
 
-console.log(firstBook);
+console.log('firstBook:', firstBook);
+
+var js = {
+  title: 'JavaScript for Impatient Programmers',
+  author: 'Dr. Axel Rauschmayer'
+};
+var css = {
+  title: 'CSS Secrets',
+  author: 'Lea Verou'
+};
+
+library.push(js);
+library.unshift(css);
+library.splice(library[1]);
+
+console.log('library:', library);
