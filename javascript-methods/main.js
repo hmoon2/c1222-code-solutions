@@ -48,8 +48,8 @@ var css = {
   author: 'Lea Verou'
 };
 
-library.push(js);
-library.unshift(css);
-library.splice(library[1]);
+// library.push(js);
+// library.unshift(css);
+// library.splice(library[1]);
 
-console.log('library:', library);
+// console.log('library:', library);
