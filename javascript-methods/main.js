@@ -16,3 +16,21 @@ console.log(randomIndex);
 var randomHero = heroes[randomIndex];
 
 console.log(randomHero);
+
+var library = [
+  {
+    title: 'The Very Hungry Caterpillar',
+    author: 'Eric Carle'
+  },
+  {
+    title: 'How the Grinch Stole Christmas!',
+    author: 'Dr. Seuss'
+  },
+  {
+    title: 'No, David!',
+    author: 'David Shannon'
+  }
+];
+var lastBook = library.pop();
+
+console.log(lastBook);
