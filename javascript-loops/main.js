@@ -32,17 +32,18 @@ function getEvenNumbersToTwenty() {
 
 console.log('getEvenNumbersToTwenty result:', getEvenNumbersToTwenty());
 
-// function repeatWord(word, times) {
-//   var count = 1;
-//   var repeated = '';
+function repeatWord(word, times) {
+  var count = 1;
+  var repeated = '';
 
-//   while (count === times) {
-//     count++;
-//   }
-//   return repeated;
-// }
+  while (count < times) {
+    repeated += word;
+    count++;
+  }
+  return repeated;
+}
 
-// console.log('repeatWord:', repeatWord('cat', 5));
+console.log('repeatWord:', repeatWord('cat', 5));
 
 function logEachCharacter(string) {
   for (var i = 0; i < string.length; i++) {
@@ -59,20 +60,21 @@ function doubleAll(numbers) {
   for (var i = 0; i < numbers.length; i++) {
     doubled.push(numbers[i] * 2);
   }
+  return doubled;
 }
 
 console.log(doubleAll([2, 5, 6]));
 console.log(doubleAll([3, 8, 1]));
 
-// function getKeys(object) {
-//   var keys = [];
-//   for (key in object) {
-//     keys.push[key];
-//   }
-//   return keys;
-// }
+function getKeys(object) {
+  var keys = [];
+  for (var key in object) {
+    keys.push(key);
+  }
+  return keys;
+}
 
-// console.log(getKeys({ paws: 4, ears: 2 }));
+console.log('getKeys:', getKeys({ paws: 4, ears: 2 }));
 
 // function getValues(object) {
 //   var values = [];
