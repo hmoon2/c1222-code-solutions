@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  color: lightgray;
+}
+
+span {
+  color: black;
+  border-radius: 2px;
+}
+
+.container {
+  max-width: 80%;
+}
+
+.row {
+  display: flex;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+.col-fifth {
+  flex-basis: calc(100% / 5);
+}
+
+.content-margin {
+  margin: auto;
+}
+
+.text {
+  font-family: "DM Sans", sans-serif;
+}
+
+.span-background {
+  background-color: rgb(253 231 225);
+}
+
+.span-bold {
+  font-weight: bold;
+}
+
+.spacing {
+  margin: 0 10px;
+}
