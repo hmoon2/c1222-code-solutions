@@ -1,10 +1,11 @@
 button {
   font-size: x-small;
+  font-weight: bold;
   font-family: Karla, sans-serif;
   color: rgb(209 64 64);
   background-color: white;
   border: rgb(209 64 64) solid;
-  border-width: 1px;
+  border-width: 0.15rem;
   padding: 5px 10px;
   width: 125px;
   margin-top: 30px;
@@ -25,31 +26,64 @@ img {
 
 p {
   font-size: x-small;
-  line-height: 1.7em;
-}
-
-.col-two-thirds {
-  width: calc(200% / 3);
-  padding-right: 40px;
+  line-height: 2em;
 }
 
 .container {
-  width: 600px;
-  margin: auto;
-  font-family: Karla, sans-serif;
+  max-width: 70%;
 }
 
-.flex-wrap {
+.col-full {
+  flex-basis: 100%;
+}
+
+.col-half {
+  flex-basis: calc(100% / 2);
+}
+
+.col-two-thirds {
+  flex-basis: calc(300% / 4);
+}
+
+.col-fourth {
+  flex-basis: calc(100% / 4);
+}
+
+.content-margin {
+  margin: auto;
+}
+
+.center {
   flex-wrap: wrap;
   text-align: center;
 }
 
 .row {
   display: flex;
-  padding-top: 40px;
 }
 
-.width425 {
-  width: 425px;
+.text {
+  font-family: Karla, sans-serif;
+}
+
+.left-to-right {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.width75 {
+  width: 75%;
   margin: auto;
+}
+
+.padding10 {
+  padding: 10px 0;
+}
+
+.right-padding {
+  padding-right: 20px;
+}
+
+.left-padding {
+  padding-left: 25px;
 }
