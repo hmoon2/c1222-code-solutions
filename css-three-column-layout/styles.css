@@ -48,4 +48,23 @@ p {
   width: 100px;
   height: 100px;
   border-radius: 100%;
+  margin: auto;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-padding {
+  padding: 0 10px;
+}
+
+.container-padding {
+  padding: 50px 0;
+}
+
+.h1-div-margin {
+  margin: 25px 0;
 }
