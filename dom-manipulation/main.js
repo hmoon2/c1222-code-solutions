@@ -9,10 +9,8 @@ number of clicks go up the textContent changes.  */
 // var clickHotButton = document.querySelector('.hot-button');
 // var clickCount = document.querySelector('.click-count');
 
-// function hotButton(clickHotButton) {
+// function hotButton(event) {
 //   numberOfClicks++;
 // }
 
-// console.log(clickCount);
-
-// hotButton.addEventListener('click', hotButton);
+// clickHotButton.addEventListener('click', hotButton);
