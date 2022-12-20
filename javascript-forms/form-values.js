@@ -8,12 +8,12 @@ function submitEvent(event) {
   var firstInputValue = firstInputElement.value;
   var secondInputValue = secondInputElement.value;
   var textAreaValue = textAreaElement.value;
-  var newObj = {
-    name: firstInputValue,
-    email: secondInputValue,
-    message: textAreaValue
-  };
-  console.log(newObj);
+  var object = {};
+  object.name = firstInputValue;
+  object.email = secondInputValue;
+  object.message = textAreaValue;
+  console.log('messageData:', object);
+  document.querySelector('form').reset();
 }
 
 contactForm.addEventListener('submit', submitEvent);
