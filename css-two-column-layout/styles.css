@@ -41,7 +41,7 @@ p {
   flex-basis: calc(100% / 2);
 }
 
-.col-two-thirds {
+.col-three-fourth {
   flex-basis: calc(300% / 4);
 }
 
