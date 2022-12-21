@@ -59,21 +59,37 @@ var pokedex = [
 
 /*  */
 function renderPokemon(pokedex) {
-  var colThird = document.createElement('div');
-  colThird.setAttribute('class', 'column-third');
+  var column = document.createElement('div');
+  column.setAttribute('class', 'column-third');
 
-  var pokemonCard = document.createElement('div');
-  pokemonCard.setAttribute('class', 'pokemone-card');
+  var card = document.createElement('div');
+  card.setAttribute('class', 'pokemon-card');
 
-  var pikachuImage = document.createElement('img');
-  pikachuImage.setAttribute('src', 'images/pikachu.png');
+  var image = document.createElement('img');
+  image.setAttribute('src', pokedex.imageUrl);
 
-  var pokemonCardText = document.createElement('div');
-  pokemonCardText.setAttribute('class', 'pokemon-card-text');
+  var cardText = document.createElement('div');
+  cardText.setAttribute('class', 'pokemon-card-text');
 
-  // var pikachuHeader = document.createElement('h2');
-  // var pikachuHeaderText = document.createTextNode('Pikachu');
+  var headerTwo = document.createElement('h2');
+  var headerTwoText = document.createTextNode(pokedex.name);
 
+  var headerThree = document.createElement('h3');
+  var identityNumber = document.createTextNode(pokedex.number);
+
+  var paragraph = document.createElement('p');
+  var infoParagraph = document.createTextNode(pokedex.description);
+
+  var pokemonName = headerTwo.appendChild(headerTwoText);
+  var pokemonNumber = headerThree.appendChild(identityNumber);
+  var pokemonDescription = paragraph.appendChild(infoParagraph);
+
+  column.appendChild(card);
+  card.appendChild(image);
+  card.appendChild(cardText);
+  cardText.appendChild(pokemonName);
+  cardText.appendChild(pokemonNumber);
+  cardText.appendChild(pokemonDescription);
 }
 
 renderPokemon(pokedex[0]);
