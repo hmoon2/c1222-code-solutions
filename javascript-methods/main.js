@@ -48,8 +48,18 @@ var css = {
   author: 'Lea Verou'
 };
 
-// library.push(js);
-// library.unshift(css);
-// library.splice(library[1]);
+library.push(js);
+library.unshift(css);
+library.splice(library[1]);
 
-// console.log('library:', library);
+console.log('library:', library);
+
+var fullName = 'Heerak Moon';
+var firstAndLastName = fullName.split(' ');
+
+console.log('firstAndLastName:', firstAndLastName);
+
+var firstName = firstAndLastName[0];
+var sayMyName = firstName.toUpperCase();
+
+console.log('sayMyName:', sayMyName);
