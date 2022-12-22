@@ -23,7 +23,7 @@ var jsonBooks = JSON.stringify(books);
 
 console.log('JSON.stringify of books array:', typeof jsonBooks);
 
-var jsonStudent = "{'id': 159,'name': 'Jason'}";
+var jsonStudent = '{"id": 159, "name": "Jason"}';
 
 console.log('jsonStudent:', jsonStudent);
 console.log('typeof jsonStudent:', typeof jsonStudent);
