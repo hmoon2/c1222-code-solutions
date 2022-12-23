@@ -1,16 +1,19 @@
 /* exported isUpperCased */
 /* create a function
-inside the function code block, assign the boolean true to a variable (wordIs)
-then create a for loop. Initialize with a variable equal to 0
-then have i be less than the length of the word and have i be incremented
-in the loop, if a letter can be changed to uppercase, if it can assign false to the variable wordIs
-return the value of the variable wordIs */
+inside the function code block, create a variable without a value (wordIsUpperCased)
+then create a for loop. Initialize with a variable equal to 0; have i be less than the length of the word; have i be incremented
+in the loop, change the string to be all uppercased and have it compared to itself
+if the condition returns true then it means that the string is all uppercased
+if the condition returns false then it means that the string is not all uppercased
+have the variable wordIsUpperCased returned out of the function */
 function isUpperCased(word) {
-  var wordIs = true;
+  var wordIsUpperCased;
   for (var i = 0; i < word.length; i++) {
-    if (word[i].toUpperCase) {
-      wordIs = false;
+    if (word[i].toUpperCase() === word[i]) {
+      wordIsUpperCased = true;
+    } else if (word[i].toUpperCase() !== word[i]) {
+      wordIsUpperCased = false;
     }
   }
-  return wordIs;
+  return wordIsUpperCased;
 }
