@@ -9,9 +9,9 @@ have the variable wordIsUpperCased returned out of the function */
 function isUpperCased(word) {
   var wordIsUpperCased;
   for (var i = 0; i < word.length; i++) {
-    if (word[i].toUpperCase() === word[i]) {
+    if (word.toUpperCase() === word) {
       wordIsUpperCased = true;
-    } else if (word[i].toUpperCase() !== word[i]) {
+    } else if (word.toUpperCase() !== word) {
       wordIsUpperCased = false;
     }
   }
