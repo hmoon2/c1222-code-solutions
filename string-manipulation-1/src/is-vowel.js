@@ -1,7 +1,7 @@
 /* exported isVowel */
 /* create a function that checks if a string character is a vowel or consonant
 the function will have one parameter (character)
-create a variable (vowels) that is assigned an array [a, e, i, o ,u, A, E, I, O, U]
+create a variable (vowels) that is assigned a string ('aeiouAEIOU')
 create a second variable (isAVowel) that equals false
 create a for loop (initialize variable (i) to zero; i is less than the length of vowels; increment i)
 inside the for loop create an if statement where the condition is
