@@ -9,7 +9,7 @@ if the character is equal to an item in the array then isAVowel will be true
 return isAVowel out of the function */
 
 function isVowel(character) {
-  var vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+  var vowels = 'aeiouAEIOU';
   var isAVowel = false;
   for (var i = 0; i < vowels.length; i++) {
     if (vowels[i] === character) {
