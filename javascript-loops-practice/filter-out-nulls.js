@@ -2,7 +2,7 @@
 function filterOutNulls(values) {
   var noNullsArray = [];
   for (var i = 0; i < values.length; i++) {
-    if (typeof values[i] !== 'object') {
+    if (values[i] !== null) {
       noNullsArray.push(values[i]);
     }
   }
