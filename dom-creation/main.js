@@ -57,44 +57,44 @@ var pokedex = [
   }
 ];
 
-// function renderPokemon(pokedex) {
-//   var column = document.createElement('div');
-//   column.setAttribute('class', 'column-third');
+function renderPokemon(pokemon) {
+  var column = document.createElement('div');
+  column.setAttribute('class', 'column-third');
 
-//   var card = document.createElement('div');
-//   card.setAttribute('class', 'pokemon-card');
+  var card = document.createElement('div');
+  card.setAttribute('class', 'pokemon-card');
 
-//   var image = document.createElement('img');
-//   image.setAttribute('src', pokedex.imageUrl);
+  var image = document.createElement('img');
+  image.setAttribute('src', pokemon.imageUrl);
 
-//   var cardText = document.createElement('div');
-//   cardText.setAttribute('class', 'pokemon-card-text');
+  var cardText = document.createElement('div');
+  cardText.setAttribute('class', 'pokemon-card-text');
 
-//   var headerTwo = document.createElement('h2');
-//   var headerTwoText = document.createTextNode(pokedex.name);
+  var headerTwo = document.createElement('h2');
+  var headerTwoText = document.createTextNode(pokemon.name);
 
-//   var headerThree = document.createElement('h3');
-//   var identityNumber = document.createTextNode(pokedex.number);
+  var headerThree = document.createElement('h3');
+  var identityNumber = document.createTextNode(pokemon.number);
 
-//   var paragraph = document.createElement('p');
-//   var infoParagraph = document.createTextNode(pokedex.description);
+  var paragraph = document.createElement('p');
+  var infoParagraph = document.createTextNode(pokemon.description);
 
-//   var pokemonName = headerTwo.appendChild(headerTwoText);
-//   var pokemonNumber = headerThree.appendChild(identityNumber);
-//   var pokemonDescription = paragraph.appendChild(infoParagraph);
+  column.appendChild(card);
+  card.appendChild(image);
+  card.appendChild(cardText);
+  cardText.appendChild(headerTwo);
+  headerTwo.appendChild(headerTwoText);
+  cardText.appendChild(headerThree);
+  headerThree.appendChild(identityNumber);
+  cardText.appendChild(paragraph);
+  paragraph.appendChild(infoParagraph);
 
-//   column.appendChild(card);
-//   card.appendChild(image);
-//   card.appendChild(cardText);
-//   cardText.appendChild(pokemonName);
-//   cardText.appendChild(pokemonNumber);
-//   cardText.appendChild(pokemonDescription);
+  return column;
+}
 
-//   return column;
-// }
+var rowElement = document.querySelector('.row');
 
-// var rowElement = document.querySelector('.row');
-
-// for (var i = 0; i < pokedex.length; i++) {
-//   renderPokemon[i];
-// }
+for (var i = 0; i < pokedex.length; i++) {
+  var pokemonInPokedex = renderPokemon(pokedex[i]);
+  rowElement.appendChild(pokemonInPokedex);
+}
