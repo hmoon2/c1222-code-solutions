@@ -1,0 +1,47 @@
+* {
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  margin: 15px 0;
+}
+
+button {
+  border-radius: 5px;
+  color: white;
+  font-size: x-large;
+  font-weight: 500;
+  padding: 5px 25px;
+}
+
+.purple {
+  background-color: rgb(76 60 225);
+  box-shadow: 0 0 1px 1px rgb(76 60 225);
+  border-color: rgb(76 60 225);
+}
+
+.salmon {
+  background-color: rgb(254 83 83);
+  box-shadow: 0 0 1px 1px rgb(182 154 151);
+  border-color: rgb(254 83 83);
+  margin: 15px 0;
+}
+
+.pop-up {
+  width: 500px;
+  background-color: rgb(201 220 255);
+  border-radius: 5px;
+  padding: 30px 0;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.hide {
+  display: none;
+}
