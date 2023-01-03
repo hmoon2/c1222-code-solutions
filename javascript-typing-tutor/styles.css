@@ -1,17 +1,19 @@
-* {
+.font {
   font-family: Prompt, sans-serif;
 }
 
 .neutral {
   color: black;
+  border-bottom: solid black;
 }
 
 .correct {
-  color: rgb(139 250 139);
+  color: rgb(74 243 48);
 }
 
 .incorrect {
   color: red;
+  border-bottom: solid red;
 }
 
 .margin {
