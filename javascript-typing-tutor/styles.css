@@ -1,3 +1,23 @@
 * {
   font-family: Prompt, sans-serif;
 }
+
+.neutral {
+  color: black;
+}
+
+.correct {
+  color: rgb(139 250 139);
+}
+
+.incorrect {
+  color: red;
+}
+
+.margin {
+  margin: 25%;
+}
+
+.text-center {
+  text-align: center;
+}
