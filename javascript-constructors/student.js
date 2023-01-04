@@ -1,22 +1,15 @@
 // /* exported Student */
-// var student = {
-//   getFullName: function (firstName, lastName) {
-//     var fullName = firstName + ' ' + lastName;
-//     return fullName;
-//   },
-//   getIntroduction: function (subject) {
+var student = {
+  getFullName: function () {
+    return this.firstName + ' ' + this.lastName;
+  },
+  getIntroduction: function () {
+    return 'Hello, my name is ' + student.getFullName() + ' and I am studying ' + this.subject + '.';
+  }
+};
 
-//   }
-// };
-
-// var grace = {
-//   firstName: 'Grace',
-//   lastName: 'Hopper',
-//   subject: 'compilers'
-// };
-
-// var dennis = {
-//   firstName: 'Dennis',
-//   lastName: 'Ritchie',
-//   subject: 'systems programming'
-// };
+// function Student(firstName, lastName, subject) {
+//   this.firstName = firstName;
+//   this.lastName = lastName;
+//   this.subject = subject;
+// }
