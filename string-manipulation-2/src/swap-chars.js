@@ -1,9 +1,12 @@
 /* exported swapChars */
 
-function swapChars(firstIndex, secondIndex, string) {
-  var swappedCharsString = '';
-  string.split('');
-  [string[firstIndex], string[secondIndex]] = [string[secondIndex], string[firstIndex]];
+// function swapChars(firstIndex, secondIndex, string) {
+//   var swappedCharsString = '';
+//   var stringArray = string.split('');
+//   var firstIn = stringArray[firstIndex];
+//   var secondIn = stringArray[secondIndex];
+//   firstIn = stringArray[secondIndex];
+//   secondIn = stringArray[firstIndex];
 
-  return swappedCharsString;
-}
+//   return swappedCharsString;
+// }
